@@ -51,7 +51,7 @@ public class MainApp {
          System.out.println();
       }
 
-      System.out.println(userService.showUserByCar("Car4", 3));
+      System.out.println(userService.getUserByModelAndSeries("Car4", 3));
       context.close();
    }
 }
